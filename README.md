@@ -25,7 +25,4 @@ This is my 4th Semester project – a **Library Management System (LMS)** develo
 - 🧾 Due Date & Fine Management (if applicable)
 - 🧹 Clear Screen / Exit Menu
 
----
-
-## 📁 Folder Structure
 
