@@ -1,28 +1,158 @@
-# 📚 Library Management System (LMS) – 4th Semester Project
+# 📚 Library Management System
 
-This is my 4th Semester project – a **Library Management System (LMS)** developed as part of my BCA curriculum. It is designed to manage the everyday operations of a library such as adding/removing books, issuing/returning books, and maintaining user and book records.
+> **BCA 4th Semester Project**  
+> A web-based Library Management System developed using **PHP** and **MySQL** to streamline library operations such as managing books, members, book issuance, and returns.
 
 ---
 
-## 🔧 Technologies Used
+## 📖 Overview
 
-- Programming Language: C (or Java / Python / etc.)
-- Platform: Turbo C / Code::Blocks / Eclipse / VS Code
-- File Handling / Database (if used): Text Files / MySQL
-- Project Type: Console-Based Application
+The Library Management System is a web application designed to automate the daily activities of a library. It enables librarians to efficiently manage books, members, and borrowing records through a simple and user-friendly interface.
+
+This project was developed as part of my **Bachelor of Computer Applications (BCA) – 4th Semester** coursework and strengthened my understanding of full-stack web development using PHP and MySQL.
 
 ---
 
 ## 🚀 Features
 
-- 📘 Add New Books
-- 🗑️ Delete Books
-- 🔍 Search Books (by title, author, etc.)
-- 👥 Add/Delete Users
-- 📥 Issue Books to Students
-- 📤 Return Books
-- 📑 View Issued Books Record
-- 🧾 Due Date & Fine Management (if applicable)
-- 🧹 Clear Screen / Exit Menu
+### 📚 Book Management
 
+- Add new books
+- Update book details
+- Delete books
+- Search books
+- View all available books
 
+### 👤 Member Management
+
+- Add new members
+- Update member details
+- Delete members
+- View member records
+
+### 📖 Book Transactions
+
+- Issue books
+- Return books
+- Track issued books
+- Manage due dates
+- Fine calculation (if implemented)
+
+### 🔐 Admin Panel
+
+- Secure administrator login
+- Manage books and members
+- Monitor library activities
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+### Backend
+
+- PHP
+
+### Database
+
+- MySQL
+
+### Development Tools
+
+- XAMPP
+- Visual Studio Code
+
+---
+
+## 📂 Project Structure
+
+```text
+LibraryManagementSystem
+│
+├── admin/
+├── assets/
+├── css/
+├── images/
+├── includes/
+├── js/
+├── database/
+├── index.php
+├── login.php
+├── dashboard.php
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- PHP 8.x or later
+- MySQL
+- XAMPP/WAMP/LAMP
+- Web Browser
+
+### Installation
+
+1. Clone the repository.
+
+```bash
+git clone https://github.com/your-username/library-management-system.git
+```
+
+2. Move the project to the **htdocs** folder (XAMPP).
+
+3. Import the database into **phpMyAdmin**.
+
+4. Update the database credentials if required.
+
+5. Start **Apache** and **MySQL**.
+
+6. Open the project in your browser.
+
+```
+http://localhost/library-management-system
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me gain practical experience in:
+
+- PHP Web Development
+- MySQL Database Design
+- CRUD Operations
+- Authentication & Session Management
+- Database Connectivity
+- Responsive Web Design
+- Problem Solving
+
+---
+
+## 📌 Project Status
+
+✅ Completed
+
+Developed as part of my **Bachelor of Computer Applications (BCA) – 4th Semester**.
+
+---
+
+## 👨‍💻 Author
+
+**Mohmadhusen Khimani**
+
+- MCA Student
+- Full-Stack MERN Developer
+- Aspiring Software Development Engineer
+
+---
+
+⭐ Thank you for visiting this repository! Feel free to explore the project and share your feedback.
